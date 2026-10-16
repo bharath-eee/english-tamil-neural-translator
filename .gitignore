@@ -1,0 +1,32 @@
+# Python Bytecode & Cache
+__pycache__/
+*.py[cod]
+*$py.class
+*.pyc
+
+# Virtual Environments
+venv/
+.venv/
+env/
+
+# Environment Variables & Tokens
+.env
+.env.local
+*.key
+token.txt
+
+# Dataset dumps & large CSV files
+*.csv
+dataset/
+data/
+
+# Model Weights Cache
+models/
+.cache/
+huggingface/
+
+# IDE & Editor Settings
+.vscode/
+.idea/
+*.swp
+*.swo
